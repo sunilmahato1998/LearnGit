@@ -1,0 +1,12 @@
+project/
+	pages/
+		login.page.py
+		home
+	tests/
+		test.login.py
+		
+import pytest
+@pytest.fixture
+def setup_data():
+	print("\nSetting up data.")
+	data= {"username": "admin". "passwor":
